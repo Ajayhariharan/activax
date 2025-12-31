@@ -1,92 +1,114 @@
-### 🔐 Default Admin Login
+# 🧩 Activax — Activity Management & Admin Dashboard
 
-Use the following credentials to log in as the default admin:
+Activax is a modern Activity Management Dashboard built with React + TypeScript + Vite, designed for simplicity, speed, and clarity.
+It provides role-based access, an intuitive UI, and secure authentication — making it perfect for admins and users to manage tasks, activities, and workflows.
 
-- **Email:** `admin1@example.com`
-- **Password:** `admin123`
+------------------------------------------------------------
+✨ FEATURES
+------------------------------------------------------------
 
-> ⚠️ For security reasons, please remember to change this password after your first login.
+✔ 🔐 Secure Authentication System
+✔ 👤 Admin & User Role Support
+✔ 📊 Dashboard with Activity Overview
+✔ 📝 Create / View / Manage Activities
+✔ 🚀 Ultra-fast Vite + React stack
+✔ 🎯 Clean & Responsive UI
+✔ 🧠 TypeScript for reliability
+✔ ⚙️ Modern Tooling & Dev Experience
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-# activax
-=======
-=======
->>>>>>> 0324ee4d2a4f7fc2bcd95e4e2c50f6633760f3b9
-# React + TypeScript + Vite
+------------------------------------------------------------
+🔐 DEFAULT ADMIN LOGIN
+------------------------------------------------------------
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Email:    admin1@example.com
+Password: admin123
 
-Currently, two official plugins are available:
+⚠️ Change this password after first login.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+------------------------------------------------------------
+🛠 TECH STACK
+------------------------------------------------------------
 
-## React Compiler
+• React
+• TypeScript
+• Vite
+• Modern CSS styling
+• ESLint + Dev Tools
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+------------------------------------------------------------
+🚀 GETTING STARTED
+------------------------------------------------------------
 
-## Expanding the ESLint configuration
+1️⃣ Clone the repository
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+git clone https://github.com/Ajayhariharan/activax.git
+cd activax
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+2️⃣ Install dependencies
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+npm install
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+3️⃣ Start development server
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+npm run dev
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+App runs at:
+http://localhost:5173
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
-<<<<<<< HEAD
->>>>>>> 0324ee4 (Initial commit)
-=======
->>>>>>> 0324ee4d2a4f7fc2bcd95e4e2c50f6633760f3b9
+------------------------------------------------------------
+📦 BUILD FOR PRODUCTION
+------------------------------------------------------------
+
+npm run build
+
+Preview build:
+npm run preview
+
+------------------------------------------------------------
+👥 USER ROLES
+------------------------------------------------------------
+
+Admin -> Full control (manage users & activities)
+User  -> Limited access (assigned activities only)
+
+------------------------------------------------------------
+📁 PROJECT STRUCTURE
+------------------------------------------------------------
+
+src/
+ assets/
+ components/
+ pages/
+ hooks/
+ store/
+ types/
+ App.tsx
+ main.tsx
+
+------------------------------------------------------------
+🛡 SECURITY NOTES
+------------------------------------------------------------
+
+• Never expose real credentials publicly
+• Change default passwords immediately
+• Use environment variables for secrets
+
+------------------------------------------------------------
+🤝 CONTRIBUTING
+------------------------------------------------------------
+
+Contributions are welcome.
+Open issues for features or bugs.
+
+------------------------------------------------------------
+⭐ SUPPORT
+------------------------------------------------------------
+
+If you like this project, please ⭐ the repo!
+
+------------------------------------------------------------
+👨‍💻 AUTHOR
+------------------------------------------------------------
+
+Ajay Hariharan
+Built with ❤️ using React
