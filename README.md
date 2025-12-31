@@ -1,4 +1,4 @@
-# 🧩 Activax — Activity Management & Admin Dashboard
+# 🧩 Activax — User and Role-Based Activity Management System
 
 Activax is a modern Activity Management Dashboard built with React + TypeScript + Vite, designed for simplicity, speed, and clarity.
 It provides role-based access, an intuitive UI, and secure authentication — making it perfect for admins and users to manage tasks, activities, and workflows.
@@ -23,7 +23,6 @@ It provides role-based access, an intuitive UI, and secure authentication — ma
 Email:    admin1@example.com
 Password: admin123
 
-⚠️ Change this password after first login.
 
 ------------------------------------------------------------
 🛠 TECH STACK
