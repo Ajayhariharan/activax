@@ -1,3 +1,12 @@
+### 🔐 Default Admin Login
+
+Use the following credentials to log in as the default admin:
+
+- **Email:** `admin1@example.com`
+- **Password:** `admin123`
+
+> ⚠️ For security reasons, please remember to change this password after your first login.
+
 <<<<<<< HEAD
 <<<<<<< HEAD
 # activax
