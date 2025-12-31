@@ -1,4 +1,4 @@
-# 🧩 Activax — Activity Management & Admin Dashboard
+# 🧩 Activax — User & Activity Management System
 
 Activax is a modern Frontend-based User & Activity Management System built using React + TypeScript + Vite.
 It helps organizations manage users, track daily activities, and control access through powerful role-based permissions.
